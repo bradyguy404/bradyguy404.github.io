@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+  <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+      <meta charset="UTF-8" />
+      <link href="style/portfolio.css" rel="stylesheet" type="text/css" />
+      <title>My Work</title>
+      <script src="js/jquery-3.6.0.min.js"></script>
+      <script src="js/scripts.js"></script>
+    </head>
+    <body>
+      <!-- Creates the top portion of the page that follows the screen and has all the important controls -->
+      <div style="height: 40px;"></div>
+      <div class="fixed"><div class="navbar">
+
+        <!-- The My Work Button that takes the user to a page containing all of my current work page -->
+        <a href="index.html">My Work</a>
+
+        <!-- The My Qualifications Button that takes the user to a page basically containing my resume -->
+        <a href="html/qualifications/qualifications.html">My Qualifications</a>
+
+        <!-- The About Me Button that takes the user to a page that discusses more personal things about me -->
+        <a href="html/about/about.html">About Me</a>
+
+        <!-- The Contact Me Button that takes the user to a page containing all my important contact info -->
+        <a href="html/contact/contact.html">Contact Me</a>
+
+      </div></div>
+
+      <br>
+      <br>
+
+      <div class="sticky"><div class="overview">
+        Below is a list of all my work, both in progress and completed. Each entry contains a picture and a small description.
+        If you would like to know more about a piece click on the overview section of that piece.
+      </div></div>
+      <div style="height: 100px"></div>
+
+      <!-- Portfolio entry for the Ace of Spades -->
+      <div class="work" onclick="location.href='html/AOS.html'">
+        <img src="assets/AOS-Thumbnail.jpg" alt="Image of the Ace of Spades Hand Cannon" class="work-img">
+        <div class="text-box">
+          <em><strong>The Ace of Spades</em></strong>
+          <hr>
+          A 3D printed replica of the Ace of Spades hand cannon from the game <em>Destiny 2</em>. This replica is complete with
+          a double action hammer-trigger mechanism with a rotatating cylinder.
+        </div>
+      </div>
+
+      <br><br>
+
+      <!-- Portfolio entry for the Master Sword -->
+      <div class="work" onclick="location.href='html/Master-Sword.html'">
+        <img src="assets/Master-Sword-Thumbnail.jpg" alt="Image of The Master Sword" class="work-img">
+        <div class="text-box">
+          <em><strong>The Master Sword</em></strong>
+          <hr>
+          A 3D printed replica of the Master Sword from <em>Legend of the Zelda</em>. This particular replica is modeled after
+          its appearance within the game <em>Breath of the Wild</em>.
+        </div>
+      </div>
+
+      <br><br>
+
+      <!-- Portfolio entry for the Mini Metal Foundry -->
+      <div class="work" onclick="location.href='html/Metal-Foundry.html'">
+        <img src="assets/Metal-Foundry-Thumbnail.jpg" alt="Image of a Metal Foundry" class="work-img">
+        <div class="text-box">
+          <em><strong>Mini Metal Foundry</em></strong>
+          <hr>
+          A small homemade metal foundry with a kale wool insulation and fire brick interior structure. The foundry is
+          propane powered and is mainly used for melting and casting with aluminum.
+        </div>
+      </div>
+
+      <br><br>
+
+      <!-- Portfolio entry for the Mandalorian Helmet -->
+      <div class="work" onclick="location.href='html/Mando-Helmet.html'">
+        <img src="assets/Mando-Helmet-Thumbnail.jpg" alt="Image of a Mandalorian Helmet" class="work-img">
+        <div class="text-box">
+          <em><strong>Mandalorian Helmet</em></strong>
+          <hr>
+          A 3D printed replica of the helmet of Dinn Djarin from the Disney+ show <em>The Mandalorian</em>. This particular
+          helmet is scaled to fit my head.
+        </div>
+      </div>
+
+      <br><br>
+
+    </body>
+    <script type="text/javascript">
+      function showContent(id) {
+        var x = document.getElementById(id);
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        }
+        else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+  </html>
