@@ -9,14 +9,14 @@ hr {
 }
 
 html {
-    background: black;
+    background: #0A0A0A;
     min-height: 100%;
 }
 
 body {
     height: 100%;
     margin: 0;
-    background-image: linear-gradient(to bottom, #2A2A2A, #000000);
+    background-image: linear-gradient(to bottom, #2A2A2A, #0A0A0A);
     background-attachment: fixed;
 }
 
@@ -41,7 +41,7 @@ h1 {
     top: 0;
     width: 100%;
     left: 0px;
-    background: #0f0f0f;
+    background: #171717;
 }
 
 .navbar a {
@@ -60,7 +60,7 @@ h1 {
 }
 
 .navbar a:hover, div.work:hover {
-    background-color: #1B1C1E;
+    background-color: #0f0f0f;
 }
 
 div.work {
