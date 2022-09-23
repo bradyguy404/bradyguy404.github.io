@@ -60,7 +60,7 @@ h1 {
 }
 
 .navbar a:hover, div.work:hover {
-    background-color: black;
+    background-color: #1B1C1E;
 }
 
 div.work {
@@ -68,7 +68,7 @@ div.work {
     font-family: tahoma;
     font-size:16px;
     color: white;
-    background: #171717;
+    background: #1f1f1f;
     width: 70%;
     height: 200px;
     padding: 15px;
@@ -96,7 +96,7 @@ div.overview {
     line-height: 20px;
     color: white;
     text-align: center;
-    background: #171717;
+    background: #1f1f1f;
     width: 75%;
     padding: 10px;
     margin: auto;
@@ -115,7 +115,7 @@ div.qualifications-sect {
     font-size: 16px;
     line-height: 20px;
     color: white;
-    background: #171717;
+    background: #1f1f1f;
     width: 70%;
     padding: 15px;
     margin: auto;
