@@ -36,7 +36,7 @@ h1 {
 }
 
 .navbar {
-    overflow: hidden;
+    overflow:hidden;
     height: 40px;
     z-index: 999;
     top: 0;
