@@ -1,145 +1,207 @@
 <!DOCTYPE html>
-  <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-      <meta charset="UTF-8" />
-      <base href="https://thelukebrady.github.io/">
-      <link href="/style/portfolio.css" rel="stylesheet" type="text/css" />
-      <title>The Ace of Spades</title>
-      <script src="/js/jquery-3.6.0.min.js"></script>
-      <script src="/js/scripts.js"></script>
-    </head>
-    <body>
-      <!-- Creates the top portion of the page that follows the screen and has all the important controls -->
-      <div style="height: 40px;"></div>
-      <div class="fixed"><div class="navbar">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8" />
+<base href="https://thelukebrady.github.io/">
+<link href="/style/portfolio.css" rel="stylesheet" type="text/css" />
+<title>The Ace of Spades</title>
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/scripts.js"></script>
+</head>
+<body>
+	<!-- Creates the top portion of the page that follows the screen and has all the important controls -->
+	<div style="height: 40px;"></div>
+	<div class="fixed">
+		<div class="navbar">
 
-        <!-- The My Work Button that takes the user to a page containing all of my current work page -->
-        <a href="/index.html">My Work</a>
+			<!-- The My Work Button that takes the user to a page containing all of my current work page -->
+			<a href="/index.html">My Work</a>
 
-        <!-- The My Qualifications Button that takes the user to a page basically containing my resume -->
-        <a href="/html/qualifications/qualifications.html">My Qualifications</a>
+			<!-- The My Qualifications Button that takes the user to a page basically containing my resume -->
+			<a href="/html/qualifications/qualifications.html">My
+				Qualifications</a>
 
-        <!-- The About Me Button that takes the user to a page that discusses more personal things about me -->
-        <a href="/html/about/about.html">About Me</a>
+			<!-- The About Me Button that takes the user to a page that discusses more personal things about me -->
+			<a href="/html/about/about.html">About Me</a>
 
-        <!-- The Contact Me Button that takes the user to a page containing all my important contact info -->
-        <a href="/html/contact/contact.html">Contact Me</a>
+			<!-- The Contact Me Button that takes the user to a page containing all my important contact info -->
+			<a href="/html/contact/contact.html">Contact Me</a>
 
-      </div></div>
+		</div>
+	</div>
 
-      <br>
-      <br>
+	<br>
+	<br>
 
-      <div class="sticky"><div class="overview">
-        <h1><strong><em>The Ace of Spades</em></strong></h1>
-        <hr style="width: 90%;">
-        <em>"Folding was never an option." - Cayde-6</em>
-      </div></div>
-      <div style="height: 100px"></div>
-      <br>
+	<div class="sticky">
+		<div class="overview">
+			<h1>
+				<strong><em>The Ace of Spades</em></strong>
+			</h1>
+			<hr style="width: 90%;">
+			<em>"Folding was never an option." - Cayde-6</em>
+		</div>
+	</div>
+	<div style="height: 100px"></div>
+	<br>
 
-      <!-- Planning -->
-      <div class="qualifications-sect">
-        <em><strong>Planning</strong></em>
-        <hr>
-        <span class="tab"></span>The Ace of Spades handcannon is a revolver style weapon from the game <em>Destiny</em> franchise. The weapon's
-        6 shot cylinder rotates for each successful trigger pull. The weapon is seen firing as both a dual action revolver (the trigger moves the hammer
-        back and rotates the cylinder) as well as single action (the hammer is cocked before firing by pulling the trigger). The weapon's cylinder can
-        also be rotated out of place to eject and load new ammo cells. Another notable trait of the weapon is Memento Mori which is where the cylinder
-        glows bluish/white when reloading after a kill. With all this functionality in mind I came up with an initial list of functionality I wanted my
-        replica to accomplish.
-        <ol> The weapon should...
-          <li>have a safety mechanism as all weapons do to prevent the weapon from firing accidentally.</li>
-          <li>be able to be fired in single action with the hammer being manually cocked back.</li>
-          <li>be able to be fired in double action where the hammer and cylinder move with the trigger pull.</li>
-          <li>have a cylinder that can rotate away form the barrel to allow for the loading of ammo cells.</li>
-          <li>light up a bluish/white when a certain type of ammo cell is loaded into the cylinder.</li>
-        </ol>
-        <span class="tab"></span>The functionality of the gun as both a double action and a single action revolver is perhaps the most complicated
-        functionality of the replica. Basically the hammer needs to move with a trigger pull (double action) but the trigger does not move when the
-        hammer pulls (single action). Additionally the hammer should lock in place after being pulled a certain distance. When the trigger is pulled
-        far back enough the hammer should then be released and return to its original position. Since the hammer always moves when preparing to fire
-        the blaster, we can exploit this by creating a "block" that prevents the hammer from rotating while the safety is engaged. Additionally, the
-        hammer should be responsible for the cylinder rotating and when the cylinder has turned a full 60º the cylinder needs to be "caught" and prevent
-        it from rotating. A pawl and gear system will also be used to prevent the cylinder from rotating counter clockwise.
-        <br><br>
-        <span class="tab"></span>The cylinder and its ability to rotate out of the gun poses some of the biggest problems with the project. To begin
-        with, the connection that holds the cylinder to the gun actually clips (moves through a solid) part of the gun when reloading. To fix this, the
-        connection will extend further into the base of the gun to increase the radius of rotation. The glowing cylinder means that the cylinder needs
-        to be mostly translucent (see though) in order for light to pass through. The ammo cell that is inserted into the cylinder will actually host
-        the lights and batteries to power them.
-        <br>
-        <br>
-        <div class="pic-hori">
-          <img src="/html/AOS/assets/Planning-Pic.jpg" alt="A picture of the Ace of Spades as it appears in Destiny 2">
-        </div>
-        <p><em>The Ace of Spades as it appears in the game Destiny 2</em></p>
-      </div>
+	<!-- Planning -->
+	<div class="qualifications-sect">
+		<h6>
+			<em><strong>Planning</strong></em>
+		</h6>
+		<hr>
+		<span class="tab"></span>The Ace of Spades handcannon is a revolver
+		style weapon from the game <em>Destiny</em> franchise. The weapon's 6
+		shot cylinder rotates for each successful trigger pull. The weapon is
+		seen firing as both a dual action revolver (the trigger moves the
+		hammer back and rotates the cylinder) as well as single action (the
+		hammer is cocked before firing by pulling the trigger). The weapon's
+		cylinder can also be rotated out of place to eject and load new ammo
+		cells. Another notable trait of the weapon is Memento Mori which is
+		where the cylinder glows bluish/white when reloading after a kill.
+		With all this functionality in mind I came up with an initial list of
+		functionality I wanted my replica to accomplish.
+		<ol>
+			The weapon should...
+			<li>have a safety mechanism as all weapons do to prevent the
+				weapon from firing accidentally.</li>
+			<li>be able to be fired in single action with the hammer being
+				manually cocked back.</li>
+			<li>be able to be fired in double action where the hammer and
+				cylinder move with the trigger pull.</li>
+			<li>have a cylinder that can rotate away form the barrel to
+				allow for the loading of ammo cells.</li>
+			<li>light up a bluish/white when a certain type of ammo cell is
+				loaded into the cylinder.</li>
+		</ol>
+		<span class="tab"></span>The functionality of the gun as both a double
+		action and a single action revolver is perhaps the most complicated
+		functionality of the replica. Basically the hammer needs to move with
+		a trigger pull (double action) but the trigger does not move when the
+		hammer pulls (single action). Additionally the hammer should lock in
+		place after being pulled a certain distance. When the trigger is
+		pulled far back enough the hammer should then be released and return
+		to its original position. Since the hammer always moves when preparing
+		to fire the blaster, we can exploit this by creating a "block" that
+		prevents the hammer from rotating while the safety is engaged.
+		Additionally, the hammer should be responsible for the cylinder
+		rotating and when the cylinder has turned a full 60º the cylinder
+		needs to be "caught" and prevent it from rotating. A pawl and gear
+		system will also be used to prevent the cylinder from rotating counter
+		clockwise. <br> <br> <span class="tab"></span>The cylinder
+		and its ability to rotate out of the gun poses some of the biggest
+		problems with the project. To begin with, the connection that holds
+		the cylinder to the gun actually clips (moves through a solid) part of
+		the gun when reloading. To fix this, the connection will extend
+		further into the base of the gun to increase the radius of rotation.
+		The glowing cylinder means that the cylinder needs to be mostly
+		translucent (see though) in order for light to pass through. The ammo
+		cell that is inserted into the cylinder will actually host the lights
+		and batteries to power them. <br> <br>
+		<div class="pic-hori">
+			<img src="/html/AOS/assets/Planning-Pic.jpg"
+				alt="A picture of the Ace of Spades as it appears in Destiny 2">
+		</div>
+		<p>
+			<em>The Ace of Spades as it appears in the game Destiny 2</em>
+		</p>
+	</div>
 
-      <br><br>
+	<br>
+	<br>
 
-      <!-- Modeling -->
-      <div class="qualifications-sect">
-        <em><strong>Modeling</strong></em>
-        <hr>
-        <span class="tab"></span>The Ace of Spades proved to be a challenge when it came to modeling the replica. Its actually a model that I started in
-        Autodesk Inventor before I switched to Solidworks as my primary CAD software. The body and shell was fairly easy but just required a lot of
-        measuring the model in game and then converting that to its scaled up measurements. The most difficult part of the body was the grip of the gun
-        which has a lot of complex geometry that a software like Solidworks can't really model accurately. For the grip, I ended up using my knowledge
-        of Blender to model the grip and then add it the rest of the Solidworks model.
-        <br><br>
-        <span class="tab"></span>The most complicated part of the process was modeling and designing the actual inner functionality of the weapon. The
-        main issue stems from the location of the hammer. Unlike most revolvers which have a lower axis of rotation for the hammer, this gun's hammer's
-        rotational axis is much higher up. This lead to some major changes from most standard revolvers and resulted in me using a gear as well as a rack
-        and pinion to aid in the trigger-hammer system.
-        <br>
-        <br>
-        <div class="pic-hori">
-          <img src="/html/AOS/assets/Modeling-Pic.jpg" alt="A picture of a Solidworks assembly of parts forming the Ace of Spades">
-        </div>
-        <p><em>A Solidworks assembly of the Ace of Spades</em></p>
-      </div>
+	<!-- Modeling -->
+	<div class="qualifications-sect">
+		<h6>
+			<em><strong>Modeling</strong></em>
+		</h6>
+		<hr>
+		<span class="tab"></span>The Ace of Spades proved to be a challenge
+		when it came to modeling the replica. Its actually a model that I
+		started in Autodesk Inventor before I switched to Solidworks as my
+		primary CAD software. The body and shell was fairly easy but just
+		required a lot of measuring the model in game and then converting that
+		to its scaled up measurements. The most difficult part of the body was
+		the grip of the gun which has a lot of complex geometry that a
+		software like Solidworks can't really model accurately. For the grip,
+		I ended up using my knowledge of Blender to model the grip and then
+		add it the rest of the Solidworks model. <br> <br> <span
+			class="tab"></span>The most complicated part of the process was
+		modeling and designing the actual inner functionality of the weapon.
+		The main issue stems from the location of the hammer. Unlike most
+		revolvers which have a lower axis of rotation for the hammer, this
+		gun's hammer's rotational axis is much higher up. This lead to some
+		major changes from most standard revolvers and resulted in me using a
+		gear as well as a rack and pinion to aid in the trigger-hammer system.
+		<br> <br>
+		<div class="pic-hori">
+			<img src="/html/AOS/assets/Modeling-Pic.jpg"
+				alt="A picture of a Solidworks assembly of parts forming the Ace of Spades">
+		</div>
+		<h6>
+			<em>A Solidworks assembly of the Ace of Spades</em>
+		</h6>
+	</div>
 
-      <br><br>
+	<br>
+	<br>
 
-      <!-- Prototyping -->
-      <div class="qualifications-sect">
-        <em><strong>Prototyping</strong></em>
-        <hr>
-        <span class="tab"></span>The first print of the Ace of Spades was a very rough model that I mainly used to judge the scale of the weapon and
-        to ensure that the weapon was feasible to print. With the first prototype done, I then finished the detailing on the body of the gun and
-        finished all the aesthetic parts of the model. From there came the difficult process of modeling the complex inner workings of the weapon. My
-        first iterations seemed promising and worked well within the Solidworks assembly but after printing these parts I noticed some flaws. Since the
-        parts were 3D printed the durability of some of the thinner parts allowed for bending and in some case cracking. This meant that these intricate
-        mechanical parts were not functioning as intended leading to a "poor" (not working in the slightest) hammer-trigger mechansim.
-        <br><br>
-        <span class="tab"></span>After several iterations I eventually had to switch to 2 mm metal rods as axles for several gears, the hammer, and for
-        the trigger. <strong>INSERT DESCRIPTION OF MECHANISM</strong>. With the mechanism now working it was just time to assemble the pieces together
-        and add the finishing touches.
-        <br>
-        <br>
-        <div class="pic-hori">
-          <img src="/html/AOS/assets/Prototyping-Pic.jpg" alt="A picture of several iterations of 3D printed Ace of Spades">
-        </div>
-       	<p><em>Various interations and test mechanisms</em></p>
-      </div>
+	<!-- Prototyping -->
+	<div class="qualifications-sect">
+		<h6>
+			<em><strong>Prototyping</strong></em>
+		</h6>
+		<hr>
+		<span class="tab"></span>The first print of the Ace of Spades was a
+		very rough model that I mainly used to judge the scale of the weapon
+		and to ensure that the weapon was feasible to print. With the first
+		prototype done, I then finished the detailing on the body of the gun
+		and finished all the aesthetic parts of the model. From there came the
+		difficult process of modeling the complex inner workings of the
+		weapon. My first iterations seemed promising and worked well within
+		the Solidworks assembly but after printing these parts I noticed some
+		flaws. Since the parts were 3D printed the durability of some of the
+		thinner parts allowed for bending and in some case cracking. This
+		meant that these intricate mechanical parts were not functioning as
+		intended leading to a "poor" (not working in the slightest)
+		hammer-trigger mechansim. <br> <br> <span class="tab"></span>After
+		several iterations I eventually had to switch to 2 mm metal rods as
+		axles for several gears, the hammer, and for the trigger. <strong>INSERT
+			DESCRIPTION OF MECHANISM</strong>. With the mechanism now working it was just
+		time to assemble the pieces together and add the finishing touches. <br>
+		<br>
+		<div class="pic-hori">
+			<img src="/html/AOS/assets/Prototyping-Pic.jpg"
+				alt="A picture of several iterations of 3D printed Ace of Spades">
+		</div>
+		<h6>
+			<em>Various interations and test mechanisms</em>
+		</h6>
+	</div>
 
-      <br><br>
+	<br>
+	<br>
 
-      <!-- Finishing Touches -->
-      <div class="qualifications-sect">
-        <center><em><strong>Finishing Touches</em></strong></center>
-        <hr>
-        <span class="tab"></span>
-        <br>
-        <br>
-        <div class="pic-hori">
-          <img src="/html/AOS/assets/Finished-Pic.jpg" alt="A video showcasing the Ace of Spades with its working trigger and hammer mechanism">
-        </div>
-        <center><p><em>A video showing off the completed Ace of Spades and its mechanisms</em></p></center>
-      </div>
+	<!-- Finishing Touches -->
+	<div class="qualifications-sect">
+		<h6>
+			<em><strong>Finishing Touches</strong></em>
+		</h6>
+		<hr>
+		<span class="tab"></span> <br> <br>
+		<div class="pic-hori">
+			<img src="/html/AOS/assets/Finished-Pic.jpg"
+				alt="A video showcasing the Ace of Spades with its working trigger and hammer mechanism">
+		</div>
+		<h6>
+			<em>A video showing off the completed Ace of Spades and its
+				mechanisms</em>
+		</h6>
+	</div>
 
-      <br><br>
+	<br>
+	<br>
 
-    </body>
-  </html>
+</body>
+</html>

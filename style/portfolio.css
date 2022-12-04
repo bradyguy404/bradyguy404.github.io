@@ -1,199 +1,207 @@
 p {
-    font-family: tahoma;
-    font-size: 16px;
-    color: white;
-    text-align: center;
+	font-family: tahoma;
+	font-size: 16px;
+	color: white;
 }
 
 hr {
-    color: white;
+	color: white;
 }
 
 html {
-    background: #0A0A0A;
-    min-height: 100%;
+	background: #0A0A0A;
+	min-height: 100%;
 }
 
 body {
-    height: 100%;
-    margin: 0;
-    background-image: linear-gradient(to bottom, #2A2A2A, #0A0A0A);
-    background-attachment: fixed;
+	height: 100%;
+	margin: 0;
+	background-image: linear-gradient(to bottom, #2A2A2A, #0A0A0A);
+	background-attachment: fixed;
 }
 
 h1 {
-    font-family: tahoma;
-    font-size: 24px;
-    color: white;
-    text-align: center;
+	font-family: tahoma;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+
+h6 {
+	font-family: tahoma;
+	font-size: 16px; color : white;
+	text-align: center;
+	color: white;
 }
 
 .fixed {
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: 999;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
 }
 
 .navbar {
-    overflow: hidden;
-    height: 40px;
-    z-index: 999;
-    top: 0;
-    width: 100%;
-    left: 0px;
-    background: #171717;
+	overflow: hidden;
+	height: 40px;
+	z-index: 999;
+	top: 0;
+	width: 100%;
+	left: 0px;
+	background: #171717;
 }
 
 .navbar a {
-    font-family: copperplate;
-    float: left;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
-    width: 25%;
-    box-sizing: border-box;
+	font-family: copperplate;
+	float: left;
+	font-size: 20px;
+	line-height: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	width: 25%;
+	box-sizing: border-box;
 }
 
 .navbar a:hover, div.work:hover {
-    background-color: #0f0f0f;
+	background-color: #0f0f0f;
 }
 
 div.work {
-    position: relative;
-    font-family: tahoma;
-    font-size:16px;
-    color: white;
-    background: #1f1f1f;
-    width: 70%;
-    height: 200px;
-    padding: 15px;
-    margin: auto;
-    border-radius: 20px;
-    border-width: 1px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-color: white;
-    overflow: hidden;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	position: relative;
+	font-family: tahoma;
+	font-size: 16px;
+	color: white;
+	background: #1f1f1f;
+	width: 70%;
+	height: 200px;
+	padding: 15px;
+	margin: auto;
+	border-radius: 20px;
+	border-width: 1px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: white;
+	overflow: hidden;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .sticky {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    z-index: 1;
-    top: 40px;
-    height: 30px;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	z-index: 1;
+	top: 40px;
+	height: 30px;
 }
 
 div.overview {
-    font-family: tahoma;
-    font-size:16px;
-    line-height: 20px;
-    color: white;
-    text-align: center;
-    background: #1f1f1f;
-    width: 75%;
-    padding: 10px;
-    margin: auto;
-    border-radius: 20px;
-    border-width: 1px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-color: white;
-    overflow: hidden;
-    z-index: 1;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-family: tahoma;
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+	text-align: center;
+	background: #1f1f1f;
+	width: 75%;
+	padding: 10px;
+	margin: auto;
+	border-radius: 20px;
+	border-width: 1px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: white;
+	overflow: hidden;
+	z-index: 1;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 div.qualifications-sect {
-    font-family: tahoma;
-    font-size: 16px;
-    line-height: 20px;
-    color: white;
-    background: #1f1f1f;
-    width: 70%;
-    padding: 15px;
-    margin: auto;
-    border-radius: 20px;
-    border-width: 1px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-color: white;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-family: tahoma;
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+	background: #1f1f1f;
+	width: 70%;
+	padding: 15px;
+	margin: auto;
+	border-radius: 20px;
+	border-width: 1px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: white;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .fifty-text {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    box-sizing: border-box;
+	float: left;
+	width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
 }
 
-.fifty-text a{
-    color:inherit;
+.fifty-text a {
+	color: inherit;
 }
 
 .text-box {
-    position: absolute;
-    float: left;
-    margin-left: 253px;
-    margin-right: 15px;
-    height: 170px;
-    line-height: 19px;
-    overflow: auto;
+	position: absolute;
+	float: left;
+	margin-left: 253px;
+	margin-right: 15px;
+	height: 170px;
+	line-height: 19px;
+	overflow: auto;
 }
 
 .pic {
-    font-family: tahoma;
-    font-size: 16px;
-    line-height: 20px;
-    color: white;
-    margin: auto;
-    width: 300px;
-    height: 420px;
-    overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-family: tahoma;
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+	margin: auto;
+	width: 300px;
+	height: 420px;
+	overflow: hidden;
+	border-radius: 20px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
+
 .pic img {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .pic-hori {
-    font-family: tahoma;
-    font-size: 16px;
-    line-height: 20px;
-    color: white;
-    margin: auto;
-    width: 420px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-family: tahoma;
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+	margin: auto;
+	width: 420px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 20px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
+
 .pic-hori img {
-    width:100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 img.work-img {
-    float: left;
-    width: 238px;
-    height: 170px;
-    overflow: hidden;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	float: left;
+	width: 238px;
+	height: 170px;
+	overflow: hidden;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .tab {
-    display: inline-block;
-    margin-left: 20px;
+	display: inline-block;
+	margin-left: 20px;
 }
