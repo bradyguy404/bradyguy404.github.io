@@ -201,5 +201,6 @@ img.work-img {
 }
 
 .center {
+	float: center;
 	text-align: center;
 }
