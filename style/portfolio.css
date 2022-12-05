@@ -199,3 +199,7 @@ img.work-img {
 	display: inline-block;
 	margin-left: 20px;
 }
+
+.center {
+	text-align: center;
+}
